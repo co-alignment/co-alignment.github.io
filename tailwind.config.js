@@ -6,6 +6,9 @@ module.exports = {
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {
+      transitionProperty: {
+
+      },
       colors: {
         crystal: {
           cyan: '#52b0c2',
@@ -44,7 +47,10 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      transitionProperty: ['hover', 'focus'],
+      transform: ['hover', 'focus'],
+    },
   },
   plugins: [],
 }
