@@ -43,6 +43,8 @@ module.exports = {
       backgroundImage: theme => ({
         'tongues' : "url('../img/bg-tongue.jpg')", 
         'derp' : "url('../img/bg-derp.jpg')", 
+        'mountain-desktop' : "url('../img/bg-mountain-desktop.jpg')",
+        'mountain-mobile' : "url('../img/bg-mountain-mobile.jpg')",
       })
     },
   },
