@@ -1,8 +1,5 @@
 module.exports = {
-  purge: {
-    mode: 'layers',
-    content: ['./dist/**/*.html'],
-  },
+  purge:["dist/**/*.html"] ,
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {
@@ -24,13 +21,18 @@ module.exports = {
         threefold: {
           green: '#57be8e',
           blue: '#1072ba'
-        }
+        },
+        coaligned: {
+          darkblue: '#0B464D',
+          teal: '#137680'
+        },
         
       }, 
       fontFamily: {
         landing: ['sans-serif'],
         gilroy: ['Gilroy', 'sans-serif'],
-        comfortaa: ['Comfortaa' , 'sand-serif']
+        comfortaa: ['Comfortaa' , 'sand-serif'],
+        Raleway:['Raleway', 'sans-serif']
       },
       boxShadow: {
         '2xl-white': '0 25px 50px -12px rgba(255, 255, 255, 0.25)',
