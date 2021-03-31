@@ -20,11 +20,12 @@ module.exports = {
         },
         threefold: {
           green: '#57be8e',
-          blue: '#1072ba'
+          blue: '#1072ba',
         },
         coaligned: {
           darkblue: '#0B464D',
-          teal: '#137680'
+          teal: '#137680',
+          pink: '#e04890',
         },
         
       }, 
