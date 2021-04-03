@@ -11,11 +11,15 @@
 }
 
 .aligned-btn-purple{
-    @apply py-4 px-16 text-white bg-purple-800 hover:bg-purple-700 my-12 rounded-lg font-bold uppercase transition duration-300 transform hover:-translate-y-1 hover:scale-105;
+    @apply py-4 px-16 text-white bg-purple-800 hover:bg-purple-700 hover:shadow-2xl rounded-3xl font-bold uppercase transition duration-300 transform hover:-translate-y-1 hover:scale-105;
 }
 
 .aligned-btn-pink{
     @apply py-4 px-16 text-white bg-coaligned-pink hover:bg-pink-600 hover:shadow-2xl rounded-3xl font-bold uppercase transition duration-300 transform hover:-translate-y-1 hover:scale-105 inline-block;
+}
+
+.top-2-full{
+    top: 200%;
 }
 
 .swiper-container {
