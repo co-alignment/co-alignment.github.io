@@ -26,6 +26,7 @@ module.exports = {
           darkblue: '#0B464D',
           teal: '#137680',
           pink: '#e04890',
+          white: '#fff9e9'
         },
         
       }, 
