@@ -50,6 +50,7 @@ module.exports = {
         'mountain-desktop' : "url('../img/bg-mountain-desktop.jpg')",
         'mountain-mobile' : "url('../img/bg-mountain-mobile.jpg')",
         'neon-leaf' : "url('../img/bg-neon-leaf.jpg')",
+        'neon-waves' : "url('../img/neon-brainwaves.jpg')"
       }),
       height: {
         'aligned-section': '36rem',
