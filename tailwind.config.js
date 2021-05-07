@@ -26,7 +26,10 @@ module.exports = {
           darkblue: '#0B464D',
           teal: '#137680',
           pink: '#e04890',
-          white: '#fff9e9'
+          white: '#fff9e9',
+          darkteal1: '#10626a',
+          darkteal2: '#0c4d54',
+          darkteal3: '#09393d'
         },
         
       }, 
