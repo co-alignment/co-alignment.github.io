@@ -49,7 +49,13 @@ module.exports = {
         'derp' : "url('../img/bg-derp.jpg')", 
         'mountain-desktop' : "url('../img/bg-mountain-desktop.jpg')",
         'mountain-mobile' : "url('../img/bg-mountain-mobile.jpg')",
-      })
+        'neon-leaf' : "url('../img/bg-neon-leaf.jpg')",
+      }),
+      height: {
+        'aligned-section': '36rem',
+        'aligned-section-xl': '64rem',
+        'aligned-section-2xl': '88rem',
+      }
     },
   },
   variants: {
