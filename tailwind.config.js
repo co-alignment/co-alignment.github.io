@@ -29,7 +29,16 @@ module.exports = {
           white: '#fff9e9',
           darkteal1: '#10626a',
           darkteal2: '#0c4d54',
-          darkteal3: '#09393d'
+          darkteal3: '#09393d',
+          neon: {
+            blue1 : '#34e9fc',
+            teal : '#34fcdd',
+            blue2 : '#34b7fc',
+            pink1 : '#fc34e9',
+            pink2 : '#dd34fc',
+            pink3 : '#fc34b7',
+          
+          },
         },
         
       }, 
@@ -60,6 +69,8 @@ module.exports = {
         'gr-left-to-dark-2' : "url('../img/gradients/left-to-dark2.png')",
         'gr-right-to-dark' : "url('../img/gradients/right-white-to-dark.png')",
         'gr-right-to-dark-2' : "url('../img/gradients/right-to-dark-2.png')",
+        'gr-right-to-dark-69' : "url('../img/gradients/right-white-to-dark-69.png')",
+        'gr-left-to-dark-69' : "url('../img/gradients/left-white-to-dark-69.png')",
       }),
       height: {
         'aligned-section': '36rem',

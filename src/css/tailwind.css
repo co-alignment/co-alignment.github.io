@@ -15,7 +15,11 @@
 }
 
 .aligned-btn-pink{
-    @apply py-4 px-16 text-white bg-coaligned-pink hover:bg-pink-600 hover:shadow-2xl rounded-3xl font-bold uppercase transition duration-300 transform hover:-translate-y-1 hover:scale-105 inline-block;
+    @apply py-2 px-16 text-white bg-gradient-to-tr from-coaligned-neon-pink1 to-coaligned-neon-pink3 hover:shadow-2xl rounded-xl font-semibold text-xl uppercase hover:underline transition duration-300 transform hover:-translate-y-1 hover:scale-105 inline-block;
+}
+
+.aligned-btn-blue{
+    @apply py-2 px-16 text-white bg-gradient-to-tr from-coaligned-neon-blue1 to-coaligned-neon-blue2 hover:shadow-2xl rounded-xl font-semibold text-xl uppercase hover:underline transition duration-300 transform hover:-translate-y-1 hover:scale-105 inline-block
 }
 
 .top-2-full{
