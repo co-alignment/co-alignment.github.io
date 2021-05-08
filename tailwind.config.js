@@ -53,7 +53,13 @@ module.exports = {
         'mountain-desktop' : "url('../img/bg-mountain-desktop.jpg')",
         'mountain-mobile' : "url('../img/bg-mountain-mobile.jpg')",
         'neon-leaf' : "url('../img/bg-neon-leaf.jpg')",
-        'neon-waves' : "url('../img/neon-brainwaves.jpg')"
+        'neon-waves' : "url('../img/neon-brainwaves.jpg')",
+        'wordcloud' : "url('../worldcloud/img/glitch-animation.gif')",
+        'wordcloud-test' : "url('../img/glitch-animation.gif')",
+        'gr-left-to-dark' : "url('../img/gradients/left-white-to-dark.png')",
+        'gr-left-to-dark-2' : "url('../img/gradients/left-to-dark2.png')",
+        'gr-right-to-dark' : "url('../img/gradients/right-white-to-dark.png')",
+        'gr-right-to-dark-2' : "url('../img/gradients/right-to-dark-2.png')",
       }),
       height: {
         'aligned-section': '36rem',
