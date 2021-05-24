@@ -542,6 +542,10 @@ video {
   display:inline-block;
 }
 
+.flex{
+  display:flex;
+}
+
 .grid{
   display:grid;
 }
@@ -590,8 +594,16 @@ video {
   height:24rem;
 }
 
+.h-screen{
+  height:100vh;
+}
+
 .h-aligned-section{
   height:36rem;
+}
+
+.h-aligned-section-2xl{
+  height:88rem;
 }
 
 .text-sm{
