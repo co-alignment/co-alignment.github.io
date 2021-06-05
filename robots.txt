@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /node_modules/
+Disallow: /.git/
+Sitemap: https://coalignment.com/sitemap.xml
