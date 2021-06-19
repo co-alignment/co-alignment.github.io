@@ -240,7 +240,22 @@
 
    </div>
  </section>
- 
+
+<!--For the cookie bar: https://www.youtube.com/watch?v=R_-oGJBg3nw -->
+<!--Cookiebar-->
+<div class="cookie-banner bg-gray-800 text-coaligned-white">
+  <div class="flex items-center">
+    <img src="./img/cookie icon-01.png" alt="cookie neon" class="lg:w-60 lg:h-50">
+    <p class="py-6 px-4 text-xl">
+      Oh god! here is this cookie message again! <br>
+      In this site we use only the functional cookies though, as we really do not like all this other stuff with ads and tracking services. for more info you can check our <a href="#" class="text-gray-200 underline hover:text-white">privacy policy</a>.
+    </p>
+  </div>
+  <button class="cookie-button aligned-btn-pink cursor-pointer items-center ml-12 mb-6">
+    Okay
+  </button>
+</div>
+
   <script>
         function scrollFunction() {
         let e = document.getElementById("second-point");
@@ -251,13 +266,7 @@
         });
       }
   </script>
-  <script>
-    const btn = document.querySelector('.mobile-menu-button');
-    const menu = document.querySelector('.mobile-menu');
-
-    btn.addEventListener( "click", () => {
-      menu.classList.toggle("hidden");
-    });
-  </script>
+  <script src="./js/menu-toggle.js"></script>
+  <script src="./js/main.js"></script>
   </body>
 </html>

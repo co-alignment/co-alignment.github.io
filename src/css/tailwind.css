@@ -19,7 +19,23 @@
 }
 
 .aligned-btn-blue{
-    @apply py-2 px-16 text-white bg-gradient-to-tr from-coaligned-neon-blue1 to-coaligned-neon-blue2 hover:shadow-2xl rounded-xl font-semibold text-xl uppercase hover:underline transition duration-300 transform hover:-translate-y-1 hover:scale-105 inline-block
+    @apply py-2 px-16 text-white bg-gradient-to-tr from-coaligned-neon-blue1 to-coaligned-neon-blue2 hover:shadow-2xl rounded-xl font-semibold text-xl uppercase hover:underline transition duration-300 transform hover:-translate-y-1 hover:scale-105 inline-block;
+}
+
+.cookie-banner {
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    right: 0;
+    background: #2f3640;
+    color: #f5f6fa;
+    padding: 0 32px;
+    box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
+  
+    transition: 400ms;
+}
+.cookie-banner.active{
+    bottom:0;
 }
 
 .top-2-full{
