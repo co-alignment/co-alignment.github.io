@@ -1,7 +1,4 @@
 User-agent: *
 Disallow: /node_modules/
 Disallow: /.git/
-Disallow: /mv-tribe/
-Disallow: /join-the-tribe/
-Disallow: /shameless-promotion/
 Sitemap: https://coalignment.com/sitemap.xml
