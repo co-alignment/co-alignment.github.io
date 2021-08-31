@@ -52,6 +52,12 @@ module.exports = {
         '2xl-white': '0 25px 50px -12px rgba(255, 255, 255, 0.25)',
         'xl-white': '0 20px 25px -5px rgba(255, 255, 255, 0.15), 0 10px 10px -5px rgba(255, 255, 255, 0.05)',
         'lg-white': '0 10px 15px -3px rgba(255, 255, 255, 0.15), 0 4px 6px -2px rgba(255, 255, 255, 0.06)',
+        'neon-purple-lg':'0 0px 30px 3px rgba(221, 52, 252, 0.15)',
+        'neon-purple-xl':'0 0px 35px 5px rgba(221, 52, 252, 0.25)',
+        'neon-purple-2xl':'0 0px 30px 5px rgba(221, 52, 252, 0.25)',
+        'neon-purple-2xl-bright':'0 2px 30px -5px rgba(221, 52, 252, 0.45)',
+        'neon-purple-2xl-brighter':'0 10px 30px 5px rgba(221, 52, 252, 0.85)',
+      
       },
       zIndex: {
         '-10' : '-10'
