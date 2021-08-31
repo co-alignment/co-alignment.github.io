@@ -56,7 +56,7 @@ module.exports = {
         'neon-purple-xl':'0 0px 35px 5px rgba(221, 52, 252, 0.25)',
         'neon-purple-2xl':'0 0px 30px 5px rgba(221, 52, 252, 0.25)',
         'neon-purple-2xl-bright':'0 2px 30px -5px rgba(221, 52, 252, 0.45)',
-        'neon-purple-2xl-brighter':'0 10px 30px 5px rgba(221, 52, 252, 0.85)',
+        'neon-purple-2xl-brighter':'0 10px 45px 10px rgba(221, 52, 252, 0.85)',
       
       },
       zIndex: {
