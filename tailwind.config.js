@@ -56,7 +56,12 @@ module.exports = {
         'neon-purple-xl':'0 0px 35px 5px rgba(221, 52, 252, 0.25)',
         'neon-purple-2xl':'0 0px 30px 5px rgba(221, 52, 252, 0.25)',
         'neon-purple-2xl-bright':'0 2px 30px -5px rgba(221, 52, 252, 0.45)',
-        'neon-purple-2xl-brighter':'0 10px 45px 10px rgba(221, 52, 252, 0.85)',
+        'neon-purple-2xl-brighter':'0 2px 45px 20px rgba(221, 52, 252, 0.85)',
+        'neon-yellow-2xl-brighter':'0 2px 45px 20px rgba(252, 221, 52, 0.85)',
+        'neon-green-2xl-brighter':'0 2px 45px 20px rgba(183, 252, 52, 0.85)',
+        'neon-teal-2xl-brighter':'0 2px 45px 20px rgba(52, 252, 221, 0.85)',
+        'neon-blue-2xl-brighter':'0 2px 45px 20px rgba(52, 183, 252, 0.85)',
+        'neon-creme-2xl-brighter':'0 2px 45px 20px rgba(255, 249, 233, 0.85)',
       
       },
       zIndex: {
@@ -69,6 +74,7 @@ module.exports = {
         'mountain-mobile' : "url('../img/bg-mountain-mobile.jpg')",
         'neon-leaf' : "url('../img/bg-neon-leaf.jpg')",
         'neon-waves' : "url('../img/neon-brainwaves.jpg')",
+        'leaves-bg-mobile' : "url('../img/leave-background-mobile.jpg')",
         'wordcloud' : "url('../worldcloud/img/glitch-animation.gif')",
         'wordcloud-test' : "url('../img/glitch-animation.gif')",
         'gr-left-to-dark' : "url('../img/gradients/left-white-to-dark.png')",
