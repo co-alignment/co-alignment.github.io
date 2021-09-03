@@ -4,4 +4,5 @@ Disallow: /.git/
 Disallow: /mv-tribe/
 Disallow: /join-the-tribe/
 Disallow: /shameless-promotion/
+Disallow: /welcome-to-HALO/
 Sitemap: https://coalignment.com/sitemap.xml
