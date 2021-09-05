@@ -61,6 +61,11 @@ module.exports = {
         'neon-green-2xl-brighter':'0 2px 45px 20px rgba(183, 252, 52, 0.85)',
         'neon-teal-2xl-brighter':'0 2px 45px 20px rgba(52, 252, 221, 0.85)',
         'neon-blue-2xl-brighter':'0 2px 45px 20px rgba(52, 183, 252, 0.85)',
+        'neon-creme-lg':'0 2px 22px 15px rgba(255, 249, 233, 0.45)',
+        'neon-creme-lg-bright':'0 2px 22px 15px rgba(255, 249, 233, 0.65)',
+        'neon-creme-xl':'0 2px 30px 20px rgba(255, 249, 233, 0.45)',
+        'neon-creme-xl-bright':'0 2px 30px 20px rgba(255, 249, 233, 0.65)',
+        'neon-creme-2xl-bright':'0 2px 45px 20px rgba(255, 249, 233, 0.65)',
         'neon-creme-2xl-brighter':'0 2px 45px 20px rgba(255, 249, 233, 0.85)',
       
       },
