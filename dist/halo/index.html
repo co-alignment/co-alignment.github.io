@@ -9,6 +9,7 @@
         <meta name="description" content="Welcome to HALO! This form will let us know how we can serve you best!">
         <link rel="shortcut icon" type="image/png" href="../img/favicon.png"/>
         <link rel="stylesheet" href="../css/tailwind.css">
+        <link rel="stylesheet" href="../css/eop.css">
 
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-9XRD8YLQ8N"></script>
         <script>
@@ -18,6 +19,8 @@
   
           gtag('config', 'G-9XRD8YLQ8N');
         </script>
+
+      <div id="loadOverlay" style="background-color:#333; position:absolute; top:0px; left:0px; width:100%; height:100%; z-index:2000;"></div>
     </head> 
     <body class="bg-halo-leaves bg-cover"> 
   <!--Navbar-->
@@ -68,6 +71,44 @@
     </div>
   </nav>
         <!--end nav bar-->
+        <!--lockscreen-->
+        <div id="fullscreen-overlay" class="pw-overlay absolute top-0 h-screen bg-halo-abstract bg-cover w-screen z-20">
+          <div class="items-center object-center block">
+            <img src="./img/logo/logo-halo.png" alt="logo" class="w-52 mx-auto pt-24">
+          </div>
+          <div id="form-box" class="items-center lg:max-w-2xl max-w-lg bg-gradient-to-b from-gray-700 to-gray-900 opacity-80  mt-5 lg:mb-56 mb-32 mx-auto  px-10 lg:px-5 py-0 text-coaligned-white shadow-xl">
+              <h1 class="mx-auto text-coaligned-white text-xl text-center py-6 font-semibold">Put in your password here</h1>
+              <div class="mx-auto pb-3 object-center items-center flex">
+                  <svg  xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-current" viewBox="0 0 20 20" fill="currentColor">
+                      <path fill-rule="evenodd" d="M18 8a6 6 0 01-7.743 5.743L10 14l-1 1-1 1H6v2H2v-4l4.257-4.257A6 6 0 1118 8zm-6-4a1 1 0 100 2 2 2 0 012 2 1 1 0 102 0 4 4 0 00-4-4z" clip-rule="evenodd" />
+                    </svg>
+                  <input type="password" class="pw-input w-5/6 bg-transparent focus:bg-gray-900 hover:bg-gray-800 mx-auto border-b-2 border-coaligned-white" name="password field" id="pw-field" placeholder="Type your HALO password">
+                  <span class="relative duration-300 transition" onclick="wink()">
+                      <svg id="eye-open" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 hidden" viewBox="0 0 20 20" fill="currentColor">
+                      <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
+                      <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd" />
+                      </svg>
+                      <svg id="eye-closed" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-current" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M3.707 2.293a1 1 0 00-1.414 1.414l14 14a1 1 0 001.414-1.414l-1.473-1.473A10.014 10.014 0 0019.542 10C18.268 5.943 14.478 3 10 3a9.958 9.958 0 00-4.512 1.074l-1.78-1.781zm4.261 4.26l1.514 1.515a2.003 2.003 0 012.45 2.45l1.514 1.514a4 4 0 00-5.478-5.478z" clip-rule="evenodd" />
+                          <path d="M12.454 16.697L9.75 13.992a4 4 0 01-3.742-3.741L2.335 6.578A9.98 9.98 0 00.458 10c1.274 4.057 5.065 7 9.542 7 .847 0 1.669-.105 2.454-.303z" />
+                        </svg>
+
+                  </span>
+              </div>
+              <div class="flex items-center mb-10">
+                <input type="checkbox" class="text-coaligned-white fill-current bg-transparent pl-13 mx-3">
+                <p class="font-Raleway font-semibold">remember me</p>
+              </div>
+              <div class="mx-auto items-center text-center pb-10">
+                  <button class="mx-auto items-center text-center px-10 py-4 font-xl text-coaligned-white border border-coaligned-white rounded-lg hover:bg-gray-700 transition duration-300 shadow-lg hover:shadow-neon-creme-lg">
+                      Access Halo!
+                  </button>
+              </div>
+             
+          </div>
+      </div>
+
+
 
         <div class="w-full object-cover">
             <iframe id="carrd site" width="100%" height="100%" frameborder="0" allow="camera; microphone; autoplay; encrypted-media;" src="https://philgeelhoed.com/"></iframe>
@@ -92,40 +133,7 @@
         </div>
         <!--End Cookiebar-->
 
-        <!--lockscreen-->
-        <div id="fullscreen-overlay" class="absolute top-0 h-screen bg-halo-abstract bg-cover w-screen z-20">
-            <div class="items-center object-center block">
-              <img src="./img/logo/logo-halo.png" alt="logo" class="w-52 mx-auto pt-24">
-            </div>
-            <div id="form-box" class="items-center lg:max-w-2xl max-w-lg bg-gradient-to-b from-gray-700 to-gray-900 opacity-80  mt-5 lg:mb-56 mb-32 mx-auto  px-10 lg:px-5 py-0 text-coaligned-white shadow-xl">
-                <h1 class="mx-auto text-coaligned-white text-xl text-center py-6 font-semibold">Put in your password here</h1>
-                <div class="mx-auto pb-10 object-center items-center flex">
-                    <svg  xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-current" viewBox="0 0 20 20" fill="currentColor">
-                        <path fill-rule="evenodd" d="M18 8a6 6 0 01-7.743 5.743L10 14l-1 1-1 1H6v2H2v-4l4.257-4.257A6 6 0 1118 8zm-6-4a1 1 0 100 2 2 2 0 012 2 1 1 0 102 0 4 4 0 00-4-4z" clip-rule="evenodd" />
-                      </svg>
-                    <input type="password" class="w-5/6 bg-transparent focus:bg-gray-900 hover:bg-gray-800 mx-auto border-b-2 border-coaligned-white" name="password field" id="pw-field" placeholder="Type your HALO password">
-                    <span class="relative duration-300 transition" onclick="wink()">
-                        <svg id="eye-open" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 hidden" viewBox="0 0 20 20" fill="currentColor">
-                        <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
-                        <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd" />
-                        </svg>
-                        <svg id="eye-closed" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-current" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M3.707 2.293a1 1 0 00-1.414 1.414l14 14a1 1 0 001.414-1.414l-1.473-1.473A10.014 10.014 0 0019.542 10C18.268 5.943 14.478 3 10 3a9.958 9.958 0 00-4.512 1.074l-1.78-1.781zm4.261 4.26l1.514 1.515a2.003 2.003 0 012.45 2.45l1.514 1.514a4 4 0 00-5.478-5.478z" clip-rule="evenodd" />
-                            <path d="M12.454 16.697L9.75 13.992a4 4 0 01-3.742-3.741L2.335 6.578A9.98 9.98 0 00.458 10c1.274 4.057 5.065 7 9.542 7 .847 0 1.669-.105 2.454-.303z" />
-                          </svg>
-
-                    </span>
-                </div>
-                <div class="mx-auto items-center text-center pb-10">
-                    <button class="mx-auto items-center text-center px-10 py-4 font-xl text-coaligned-white border border-coaligned-white rounded-lg hover:bg-gray-700 transition duration-300 shadow-lg hover:shadow-neon-creme-lg">
-                        Access Halo!
-                    </button>
-                </div>
-               
-            </div>
-        </div>
-
-
+        
         <script>
           function wink(){
             var input = document.getElementById("pw-field");
@@ -146,5 +154,7 @@
         </script>
         <script src="../js/menu-toggle.js"></script>
         <script src="../js/cookie.js"></script>
+        
+
     </body>
 </html>
