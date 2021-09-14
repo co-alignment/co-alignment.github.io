@@ -85,6 +85,8 @@ module.exports = {
         'halo-leaves' : "url('../img/leaves-HALO.jpg')",
         'halo-leaves-gradient' : "url('../halo/img/leaves-gradient.jpg')",
         'halo-abstract' : "url('../img/halo-background.jpg')",
+        'halo-container' : "url('../halo/img/connection-corner-gradient.png')",
+        'halo-events-new-moon' : "url('../halo/img/events/new-moon.jpg')",
         'gr-left-to-dark' : "url('../img/gradients/left-white-to-dark.png')",
         'gr-left-to-dark-2' : "url('../img/gradients/left-to-dark2.png')",
         'gr-right-to-dark' : "url('../img/gradients/right-white-to-dark.png')",

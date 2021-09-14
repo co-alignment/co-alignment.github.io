@@ -22,14 +22,13 @@
 
       <div id="loadOverlay" style="background-color:#333; position:absolute; top:0px; left:0px; width:100%; height:100%; z-index:2000;"></div>
     </head> 
-    <body class="bg-halo-leaves bg-cover"> 
+    <body class="bg-halo-leaves-gradient bg-cover"> 
   <!--Navbar-->
   <nav class="bg-gray-900 lg:bg-opacity-60 fixed left-0 right-0 top-0 z-20">
     <div class="px-16 font-Raleway mx-auto">
       <div class="flex justify-between">
         <div class="items-center space-x-6 hidden lg:flex">
           <a href="#next-event" class="py-4 text-coaligned-white hover:text-yellow-100 font-semibold">Next Event</a>
-          
           <a href="#monthly-overview" class="py-4 text-coaligned-white hover:text-yellow-100 font-semibold">Monthly Overview</a>
           <a href="#recording-link" class="py-4 text-coaligned-white hover:text-yellow-100 font-semibold">Recordings</a>
           <a href="#coming-soon" class="py-4 text-coaligned-white hover:text-yellow-100 font-semibold">Coming Soon..</a> 
@@ -111,10 +110,36 @@
       <!--End pw overlay-->
 
       <!--Halo Portal-->
-      <div class="bg-halo-leaves-gradient bg-cover">
-        <div id="general-make-up" class="lg:px-15 px-5 text-coaligned-white">
-          <section id="next-event"></section>
-          <section id="connection-corner"></section>
+      <div>
+        <div id="general-make-up" class="lg:px-15 px-5 text-coaligned-white font-Raleway">
+          <section id="next-event" class="pt-15 mt-28 max-w-7xl text-center items-center mx-auto">
+            <div class="flex justify-between lg:text-4xl text-3xl py-2 mx-auto font-semibold">
+              <h1>Our next event together</h1>
+              <div id="timer" class="font-light">
+                <h2>starts in </h2>
+                <div id="timer-clock"></div>
+              </div>
+            </div>
+            <div class="block bg-halo-events-new-moon bg-fixed bg-center rounded-xl shadow-2xl-white ease-in-out hover:text-yellow-200 hover:underline  transition duration-500 hover:shadow-neon-yellow-2xl-brighter inner-shadow hover:no-inner-shadow">
+              <a href="#zoom-link" class="w-full h-full ">
+                <div class="lg:h-aligned-section h-56 relative flex justify-between">
+                  <h3 id="event-title " class="text-2xl lg:text-3xl absolute lg>:bottom-2 bottom-10 left-7">New Moon Ceremony</h3>
+                  <h3 id="event-date" class="text-2xl lg:text-3xl absolute bottom-2 right-7 font-light">6th of October 2021</h3>
+                </div>
+              </a>
+            </div>
+          </section>
+
+
+          <section id="connection-corner" class="my-24 relative bg-halo-container bg-cover">
+              <div class="text-coaligned-white text-center items-center mx-auto">
+                <h2 class="text-3xl py-8 font-semibold">Catch up what's going on</h2>
+                <div class="lg:flex justify-evenly pb-11">
+                    <a href="#replays" class="inline-block border-coaligned-white border-2 hover:border-white  py-2 px-6 rounded-lg bg-transparent text-2xl uppercase hover:bg-green-400 transition transform duration-300 hover:scale-105 hover:translate-y-1 hover:shadow-2xl shadow-lg">Event Replays</a>
+                    <a href="#telegram-link" class="inline-block border-coaligned-white border-2 hover:border-white  py-2 px-6 rounded-lg bg-transparent text-2xl uppercase hover:bg-blue-400 transition transform duration-300 hover:scale-105 hover:translate-y-1 hover:shadow-2xl shadow-lg">Telegram Group</a>
+                </div>
+              </div>
+          </section>
           <section id="monthly-overview"></section>
           <section id="latest-meditation"></section>
           <section id="coming-soon"></section>
