@@ -38,6 +38,14 @@
     bottom:0;
 }
 
+.pw-overlay{
+    bottom: -100%;
+}
+
+.pw-overlay.on{
+    bottom:0;
+}
+
 .top-2-full{
     top: 200%;
 }

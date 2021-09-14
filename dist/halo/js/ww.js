@@ -10,6 +10,7 @@ hashes= crypto.getHashes();
 pw = pwInput.value;
 hashPw = crypto.createHash('sha256WithRSAEncryption').update(x).digest('hex');
 
+//I used the word "on" to make the overlay visible
 // Old code for reference
 cookieButton.addEventListener("click", () => {
     cookieContainer.classList.remove("active");
