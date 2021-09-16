@@ -2,6 +2,10 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+html {
+    scroll-behavior: smooth;
+}
+
 .crystal-btn-primary{
     @apply inline-block py-2 px-16 mr-6 uppercase text-crystal-gray border-2 hover:underline hover:border-crystal-cyan ring-crystal-gray bg-transparent hover:bg-crystal-cyan hover:text-white dark:text-gray-50 dark:hover:bg-green-200 dark:hover:text-gray-600 transition duration-300 text-xl rounded-xl transform hover:-translate-y-1 hover:scale-105;
 }
@@ -37,6 +41,30 @@
 .cookie-banner.active{
     bottom:0;
 }
+
+.img-overlay {
+    backdrop-filter: blur(5px);
+}
+
+.img-overlay > * {
+    transform: translateY(25px);
+    transition: transform 0.3s;
+}
+
+.img-overlay:hover > * {
+    transform: translateY(0);
+}
+
+.img-title {
+    transition-delay: 100ms;
+}
+
+.img-description {
+    transition-delay: 125ms;
+}
+
+
+
 
 .pw-overlay{
     bottom: -100%;
