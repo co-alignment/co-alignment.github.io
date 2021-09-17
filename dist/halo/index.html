@@ -71,12 +71,13 @@
   </nav>
         <!--end nav bar-->
         <!--lockscreen-->
-        <div id="fullscreen-overlay" class="pw-overlay on fixed h-screen bg-halo-abstract bg-cover w-screen z-20 transition duration-300">
+        <div id="fullscreen-overlay" class="pw-overlay fixed h-screen bg-halo-abstract bg-cover w-screen z-20 transform transition duration-300">
           <div class="items-center object-center block">
             <img src="./img/logo/logo-halo.png" alt="logo" class="w-52 mx-auto pt-24">
           </div>
           <div id="form-box" class="items-center lg:max-w-2xl max-w-lg bg-gradient-to-b from-gray-700 to-gray-900 opacity-80  mt-5 lg:mb-56 mb-32 mx-auto  px-10 lg:px-5 py-0 text-coaligned-white shadow-xl">
               <h1 class="mx-auto text-coaligned-white text-xl text-center py-6 font-semibold">Put in your password here</h1>
+              <div class="pwerror hidden"><p class="text-red-400 lg:pl-14 pl-10">Password not correct! Please check your mail for the latest password</p></div>
               <div class="mx-auto pb-3 object-center items-center flex">
                   <svg  xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-current" viewBox="0 0 20 20" fill="currentColor">
                       <path fill-rule="evenodd" d="M18 8a6 6 0 01-7.743 5.743L10 14l-1 1-1 1H6v2H2v-4l4.257-4.257A6 6 0 1118 8zm-6-4a1 1 0 100 2 2 2 0 012 2 1 1 0 102 0 4 4 0 00-4-4z" clip-rule="evenodd" />
@@ -94,72 +95,75 @@
 
                   </span>
               </div>
-              <div class="flex items-center mb-10">
-                <input type="checkbox" class="text-coaligned-white fill-current bg-transparent pl-13 mx-3">
+              <div class="flex items-center mb-10 lg:pl-14 pl-10">
+                <input type="checkbox" class="pw-checkbox text-coaligned-white fill-current bg-transparent pl-13 mx-3">
                 <p class="font-Raleway font-semibold">remember me</p>
               </div>
               <div class="mx-auto items-center text-center pb-10">
-                  <button class="mx-auto items-center text-center px-10 py-4 font-xl text-coaligned-white border border-coaligned-white rounded-lg hover:bg-gray-700 transition duration-300 shadow-lg hover:shadow-neon-creme-lg">
+                  <button class="pwButton mx-auto items-center text-center px-10 py-4 font-xl text-coaligned-white border border-coaligned-white rounded-lg hover:bg-gray-700 transition duration-300 shadow-lg hover:shadow-neon-creme-lg">
                       Access Halo!
                   </button>
               </div>
              
           </div>
+          <script src="./js/ww.js"></script>
         </div>
 
       <!--End pw overlay-->
 
       <!--Halo Portal-->
       <div>
-        <div id="general-make-up" class="lg:px-15 px-5 text-coaligned-white font-Raleway">
-          <section id="next-event" class="pt-15 mt-28 max-w-7xl text-center items-center mx-auto">
-            <div class="flex justify-between lg:text-4xl text-3xl py-2 mx-auto font-semibold">
+        <div id="general-make-up" class=" text-coaligned-white font-Raleway">
+          <section id="next-event" class="pt-15 lg:px-15 px-5 mt-28 max-w-7xl text-center items-center mx-auto">
+            <div class="md:flex justify-between lg:text-4xl text-3xl py-2 mx-auto font-semibold">
               <h1>Our next event together</h1>
-              <div id="timer" class="font-light flex">
+              <div id="timer" class="font-light md:mx-auto md:flex">
                 <h2>starts in </h2>
                 <!--Check for countdown this video https://www.youtube.com/watch?v=NFWucjkKeRI-->
                 <div id="timer-clock" class=" pl-5 countdown">00 : 00 : 00 : 00</div>
               </div>
             </div>
-            <div class="block bg-halo-events-new-moon bg-fixed bg-center rounded-xl shadow-2xl-white ease-in-out hover:text-yellow-200 hover:underline  transition duration-500 hover:shadow-neon-creme-xl-bright inner-shadow hover:no-inner-shadow">
+            <div class="block bg-halo-events-new-moon bg-fixed bg-center rounded-xl shadow-2xl-white ease-in-out hover:text-yellow-200 hover:underline  transition duration-500 hover:shadow-neon-creme-xl-bright inner-shadow ">
               <a href="#zoom-link" class="w-full h-full ">
-                <div class="lg:h-aligned-section h-56 relative flex justify-between">
+                <div class="lg:h-aligned-section h-96 relative flex justify-between">
                     <h3 id="event-title " class="text-2xl lg:text-3xl absolute lg:bottom-2 bottom-10 left-7">New Moon Ceremony</h3>
-                  <h3 id="event-date" class="text-2xl lg:text-3xl absolute bottom-2 right-7 font-light">6th of October 2021</h3>
+                  <h3 id="event-date" class="text-2xl lg:text-3xl absolute bottom-2 lg:right-7 pl-7 font-light">6th of October 2021</h3>
                 </div>
               </a>
             </div>
+            <script src="./js/countdown.js"></script>
           </section>
 
 
-          <section id="connection-corner" class="my-24 relative bg-halo-container bg-cover">
+
+          <section id="connection-corner" class="my-24 relative bg-halo-container bg-cover ">
               <div class="text-coaligned-white text-center items-center mx-auto">
                 <h2 class="text-3xl py-8 font-semibold">Catch up what's going on</h2>
                 <div class="lg:flex justify-evenly pb-11">
-                    <a href="#replays" class="inline-block border-coaligned-white border-2 hover:border-white  py-2 px-6 rounded-lg bg-transparent text-2xl uppercase hover:bg-green-400 transition transform duration-300 hover:scale-105 hover:translate-y-1 hover:shadow-2xl shadow-lg">Event Replays</a>
+                    <a href="#replays" class="inline-block border-coaligned-white border-2 hover:border-white  py-2 px-6 my-4 rounded-lg bg-transparent text-2xl uppercase hover:bg-green-400 transition transform duration-300 hover:scale-105 hover:translate-y-1 hover:shadow-2xl shadow-lg">Event Replays</a>
                     <a href="#telegram-link" class="inline-block border-coaligned-white border-2 hover:border-white  py-2 px-6 rounded-lg bg-transparent text-2xl uppercase hover:bg-blue-400 transition transform duration-300 hover:scale-105 hover:translate-y-1 hover:shadow-2xl shadow-lg">Telegram Group</a>
                 </div>
               </div>
           </section>
 
-          <section id="monthly-overview" class="lg:px-10 max-w-7xl mx-auto items-center py-4">
+          <section id="monthly-overview" class="lg:px-10 max-w-7xl mx-auto items-center py-4 lg:px-15 px-5">
             <h1 class="lg:text-4xl text-3xl py-4 font-semibold">All the events this Month</h1>
             <img id="overview-pic" src="./img/mo/mo-events-june-2021.png" alt="Monthly overview" class="transition transform duration-500 hover:scale-105 hover:translate-y-1 rounded-lg hover:shadow-2xl shadow-lg">
           </section>
 
-          <section id="latest-meditation" class="max-w-7xl lg:px-10 px-5 mx-auto items-center py-10">
+          <section id="latest-meditation" class="max-w-7xl lg:px-10 mx-auto items-center py-10 lg:px-15 px-5 container">
             <h1 class="lg:text-4xl text-3xl py-4 font-semibold">Our latest meditation</h1>
-            <iframe class="container" width="900" height="700" src="https://www.youtube.com/embed/?listType=playlist&list=UU5rA8a2oyEpT0JihHG3IUIw" frameborder="0" allowfullscreen></iframe>
+            <iframe class="container h-64 lg:w-full" width="900" height="600" src="https://www.youtube.com/embed/?listType=playlist&list=UU5rA8a2oyEpT0JihHG3IUIw" frameborder="0" allowfullscreen></iframe>
           </section>
 
-          <section id="coming-soon" class="max-w-7xl mx-auto items-center py-4">
+          <section id="coming-soon" class="max-w-7xl mx-auto items-center py-4 lg:px-15 px-5">
             <h1 class="lg:text-4xl text-3xl py-4 -mb-5 font-semibold z-20">Coming Soon....</h1>
             <!--image overlay tutorial: https://www.youtube.com/watch?v=exb2ab72Xhs-->
             <div class="image relative max-w-7xl py-4">
               <img src="./img/course-temp-thumbnail.JPG" alt="thumbnail new course" class="img-image block w-full">
-              <div class="img-overlay absolute top-0 left-0 w-full h-full bg-black bg-opacity-60 flex-col align-middle justify-center text-center mx-auto opacity-0 hover:opacity-100 focus:opacity-100 transition-opacity duration-300 ease-in-out">
-                <h3 class="img-title lg:text-4xl text-2xl py-2 font-medium pt-24 ease-in-out delay-100">Embodying HALO Course</h3>
-                <p class="img-description lg:text-xl text-lg font-light lg:px-24 px-20 text-justify ease-in-out delay-150 max-w-4xl mx-auto">In this first course we give you 5 days of unique meditations that are all embodying the halo principles. We have carefully created 5 unique experiences that very easily let you feel the power of HALO. We are at this moment editing the content - it will be out soon and for all HALO members this will be free ofcourse!</p>
+              <div class="group img-overlay absolute top-0 left-0 w-full h-full bg-black bg-opacity-60 flex-col align-middle justify-center text-center mx-auto opacity-0 hover:opacity-100 focus:opacity-100 focus-within:opacity-100 focus:ring-2 focus:ring-coaligned-white transition-opacity duration-300 ease-in-out">
+                <h3 class="img-title lg:text-4xl text-2xl py-2 font-medium lg:pt-24 pt-5 ease-in-out delay-100 group-focus:opacity-100">Embodying HALO Course</h3>
+                <p class="img-description lg:text-xl text-md font-light lg:px-24 px-10 text-justify ease-in-out delay-150 max-w-4xl mx-auto group-focus:opacity-100">In this first course we give you 5 days of unique meditations that are all embodying the halo principles. We have carefully created 5 unique experiences that very easily let you feel the power of HALO. We are at this moment editing the content - it will be out soon and for all HALO members this will be free ofcourse!</p>
               </div>
             </div>
           </section>
