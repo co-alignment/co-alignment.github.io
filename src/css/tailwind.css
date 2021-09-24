@@ -63,7 +63,32 @@ html {
     transition-delay: 125ms;
 }
 
+.answer{
+    transition: max-height 650ms;
+}
 
+.answer::before{
+    content: "";
+    position: absolute;
+    width: .6rem;
+    height: 90%;
+    background-color: aquamarine;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.accordion-item:target .answer{
+    max-height: 20rem;
+}
+
+.accordion-item:target .accordion-link .ion-md-add{
+    display: none;
+}
+
+.accordion-item:target .accordion-link .ion-md-remove{
+    display: block;
+}
 
 
 .pw-overlay{
