@@ -463,6 +463,12 @@ video {
   margin-bottom:calc(0.25rem * var(--tw-space-y-reverse));
 }
 
+.space-y-2 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse:0;
+  margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom:calc(0.5rem * var(--tw-space-y-reverse));
+}
+
 .space-y-4 > :not([hidden]) ~ :not([hidden]){
   --tw-space-y-reverse:0;
   margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));
@@ -621,8 +627,16 @@ video {
   background-image:url('../halo/img/welcome-gradient.png');
 }
 
+.bg-halo-houserules{
+  background-image:url('../join-halo/houserules/img/houserules-background.jpg');
+}
+
 .bg-halo-events-new-moon{
   background-image:url('../halo/img/events/new-moon.jpg');
+}
+
+.bg-halo-events-meditate-stone{
+  background-image:url('../halo/img/events/meditation-covers/meditation-stone-small.jpg');
 }
 
 .bg-gr-left-to-dark-69{
@@ -1049,6 +1063,14 @@ video {
   margin-bottom:8rem;
 }
 
+.mr-52{
+  margin-right:13rem;
+}
+
+.mr-96{
+  margin-right:24rem;
+}
+
 .-mt-3{
   margin-top:-0.75rem;
 }
@@ -1174,6 +1196,11 @@ video {
 .py-0{
   padding-top:0px;
   padding-bottom:0px;
+}
+
+.px-0{
+  padding-left:0px;
+  padding-right:0px;
 }
 
 .py-1{
@@ -1405,6 +1432,10 @@ video {
 
 .left-7{
   left:1.75rem;
+}
+
+.top-10{
+  top:2.5rem;
 }
 
 .bottom-10{
@@ -1777,6 +1808,10 @@ video {
 
 .rotate-90{
   --tw-rotate:90deg;
+}
+
+.-translate-x-10{
+  --tw-translate-x:-2.5rem;
 }
 
 .hover\:translate-y-1:hover{
@@ -2385,6 +2420,11 @@ html{
     padding-right:6rem;
   }
 
+  .lg\:px-36{
+    padding-left:9rem;
+    padding-right:9rem;
+  }
+
   .lg\:px-40{
     padding-left:10rem;
     padding-right:10rem;
@@ -2420,6 +2460,10 @@ html{
     padding-top:4rem;
   }
 
+  .lg\:pt-20{
+    padding-top:5rem;
+  }
+
   .lg\:pt-24{
     padding-top:6rem;
   }
@@ -2446,6 +2490,10 @@ html{
 
   .lg\:relative{
     position:relative;
+  }
+
+  .lg\:top-0{
+    top:0px;
   }
 
   .lg\:right-0{
