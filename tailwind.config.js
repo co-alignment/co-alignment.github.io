@@ -90,6 +90,7 @@ module.exports = {
         'halo-container-small' : "url('../halo/img/welcome-gradient.png')",
         'halo-houserules' : "url('../join-halo/houserules/img/houserules-background.jpg')",
         'halo-events-new-moon' : "url('../halo/img/events/new-moon.jpg')",
+        'halo-events-meditate-stone' : "url('../halo/img/events/meditation-covers/meditation-stone-small.jpg')",
         'gr-left-to-dark' : "url('../img/gradients/left-white-to-dark.png')",
         'gr-left-to-dark-2' : "url('../img/gradients/left-to-dark2.png')",
         'gr-right-to-dark' : "url('../img/gradients/right-white-to-dark.png')",
