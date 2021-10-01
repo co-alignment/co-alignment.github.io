@@ -4,6 +4,7 @@
 
 html {
     scroll-behavior: smooth;
+    position: relative;
 }
 
 .crystal-btn-primary{
