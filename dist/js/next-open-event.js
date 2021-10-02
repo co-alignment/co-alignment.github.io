@@ -36,6 +36,7 @@ function tick () {
         let minLeft = t/(1000*60);
         if(minLeft < 15) {
             document.querySelector('.event-button').classList.remove('hidden');
+            document.querySelector('.register-button').classList.add('hidden');
         }
 
 
