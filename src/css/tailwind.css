@@ -77,6 +77,7 @@ html {
     top: 50%;
     left: 0;
     transform: translateY(-50%);
+    scroll-behavior: initial;
 }
 
 .accordion-item:target .answer{
@@ -90,6 +91,20 @@ html {
 .accordion-item:target .accordion-link .ion-md-remove{
     display: block;
 }
+
+.accordion-item:target .accordion-link .ion-ios-arrow-back{
+    display: none;
+}
+
+.accordion-item:target .accordion-link .ion-ios-arrow-forward{
+    display: none;
+}
+
+.accordion-item:target .accordion-link .ion-ios-arrow-down{
+    display: block;
+}
+
+
 
 
 .pw-overlay{
