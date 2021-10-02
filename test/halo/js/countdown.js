@@ -1,5 +1,5 @@
 // Setup End Date for Countdown
-let launchDate = new Date("Oct 8, 2021 15:00:00 UTC").getTime();
+let launchDate = new Date("Oct 9, 2021 15:00:00 UTC").getTime();
 
 // Setup Timer to tick every second
 let timer = setInterval(tick, 1000);
@@ -23,8 +23,12 @@ function tick () {
         let secs = Math.floor((t % (1000 * 60)) / 1000);
         if (secs < 10) {secs  = "0" + secs; }
 
-        // Create time string
-        let time = `${days} : ${hours} : ${mins} : ${secs}`;
+       // Create time string
+       let mult = "days";
+       if (days < 2) { mult = "day";}
+       if (days < 1) { mult = "days";}
+       let time = `${days} ${mult} ${hours} : ${mins} : ${secs}`;
+
 
         //Set time on document
         document.querySelector('.countdown').innerText = time;
