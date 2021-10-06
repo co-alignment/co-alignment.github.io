@@ -1,10 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://coalignment.com/</loc>
-    <lastmod>2021-06-05</lastmod>
+    <lastmod>2021-10-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+    <url>
+    <loc>https://coalignment.com/join-halo/</loc>
+    <lastmod>2021-10-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+    <url>
+    <loc>https://coalignment.com/join/</loc>
+    <lastmod>2021-10-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+    <url>
+    <loc>https://coalignment.com/co-working/</loc>
+    <lastmod>2021-10-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+    <url>
+    <loc>https://coalignment.com/donate/</loc>
+    <lastmod>2021-10-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+     <url>
+    <loc>https://coalignment.com/privacy-policy/</loc>
+    <lastmod>2021-10-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+     <url>
+    <loc>https://coalignment.com/join-halo/houserules/</loc>
+    <lastmod>2021-10-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+     <url>
+    <loc>https://coalignment.com/Join-halo/next-event/</loc>
+    <lastmod>2021-10-06</lastmod>
     <changefreq>monthly</changefreq>
   </url>
 </urlset>
-<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
