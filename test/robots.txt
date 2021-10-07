@@ -1,9 +1,0 @@
-User-agent: *
-Disallow: /node_modules/
-Disallow: /.git/
-Disallow: /mv-tribe/
-Disallow: /join-the-tribe/
-Disallow: /shameless-promotion/
-Disallow: /welcome-to-HALO/
-Disallow: /payment/
-Sitemap: https://coalignment.com/sitemap.xml
