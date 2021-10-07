@@ -1,5 +1,14 @@
 module.exports = {
-  purge:["dist/**/*.html"] ,
+  purge: {
+    enabled: true,
+    content:  [
+      './dist/**/*.html',
+      './dist/src/*.css',
+      './dist/js/*.js',
+      './dist/halo/js/*.js',
+    ],
+  }
+  ,
   darkMode: 'media', // or 'media' or 'class'
   theme: {
     extend: {
