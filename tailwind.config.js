@@ -1,6 +1,6 @@
 module.exports = {
   purge: {
-    enabled: true,
+    enabled: false,
     content:  [
       './dist/**/*.html',
       './dist/src/*.css',
@@ -100,12 +100,11 @@ module.exports = {
         'halo-houserules' : "url('../join-halo/houserules/img/houserules-background.jpg')",
         'halo-events-new-moon' : "url('../halo/img/events/new-moon.jpg')",
         'halo-events-meditate-stone' : "url('../halo/img/events/meditation-covers/meditation-stone-small.jpg')",
-        'gr-left-to-dark' : "url('../img/gradients/left-white-to-dark.png')",
-        'gr-left-to-dark-2' : "url('../img/gradients/left-to-dark2.png')",
-        'gr-right-to-dark' : "url('../img/gradients/right-white-to-dark.png')",
-        'gr-right-to-dark-2' : "url('../img/gradients/right-to-dark-2.png')",
-        'gr-right-to-dark-69' : "url('../img/gradients/right-white-to-dark-69.png')",
-        'gr-left-to-dark-69' : "url('../img/gradients/left-white-to-dark-69.png')",
+        'halo-events-forest' : "url('../halo/img/events/meditation-covers/backlighting.jpg')",
+        'halo-events-angelman' : "url('../halo/img/events/meditation-covers/angelman.jpg')",
+        'halo-events-balloons' : "url('../halo/img/events/meditation-covers/bagan.jpg')",
+        'halo-events-butterflies' : "url('../halo/img/events/meditation-covers/blue-butterflies-mushrooms.jpg')",
+        'halo-events-nature-bridge' : "url('../halo/img/events/meditation-covers/bridge-nature-small.jpg')",
       }),
       height: {
         'aligned-section': '36rem',
