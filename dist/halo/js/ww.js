@@ -3,6 +3,7 @@ const pwInput = document.querySelector(".pw-input");
 const pwCheckbox = document.querySelector(".pw-checkbox");
 const pwButton = document.querySelector(".pwButton");
 const errorMessage = document.querySelector(".pwerror");
+const quickLoadImage = document.querySelector(".quickloadoverlay")
 
 
 
@@ -75,5 +76,11 @@ setTimeout(() => {
     pwOverlay.classList.add("on");
   }
 }, 100);
+
+setTimeout(() => {
+  if (!localStorage.getItem("pwHaloCorrect-Oct2021")) {
+     quickLoadImage.classList.add("hidden");
+  }
+}, 2500);
 
 
