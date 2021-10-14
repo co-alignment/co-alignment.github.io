@@ -1345,12 +1345,28 @@ video {
   background-image: url('../join-halo/houserules/img/houserules-background.jpg');
 }
 
+.bg-halo-events-new-moon {
+  background-image: url('../halo/img/events/new-moon.jpg');
+}
+
 .bg-halo-events-meditate-stone {
   background-image: url('../halo/img/events/meditation-covers/meditation-stone-small.jpg');
 }
 
 .bg-halo-events-balloons {
   background-image: url('../halo/img/events/meditation-covers/bagan.jpg');
+}
+
+.bg-halo-events-butterflies {
+  background-image: url('../halo/img/events/meditation-covers/blue-butterflies-mushrooms.jpg');
+}
+
+.bg-halo-events-nature-bridge {
+  background-image: url('../halo/img/events/meditation-covers/bridge-nature-small.jpg');
+}
+
+.bg-halo-events-eclipse {
+  background-image: url('../halo/img/events/meditation-covers/eclipse.jpg');
 }
 
 .from-gray-700 {
