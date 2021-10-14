@@ -619,10 +619,6 @@ video {
   top: 16rem;
 }
 
-.-top-44 {
-  top: -11rem;
-}
-
 .right-0 {
   right: 0px;
 }
@@ -907,10 +903,6 @@ video {
   width: 20rem;
 }
 
-.w-3\/5 {
-  width: 60%;
-}
-
 .w-5\/6 {
   width: 83.333333%;
 }
@@ -921,6 +913,10 @@ video {
 
 .w-screen {
   width: 100vw;
+}
+
+.max-w-sm {
+  max-width: 24rem;
 }
 
 .max-w-lg {
@@ -949,10 +945,6 @@ video {
 
 .max-w-7xl {
   max-width: 80rem;
-}
-
-.max-w-screen-sm {
-  max-width: 640px;
 }
 
 .transform {
@@ -1222,6 +1214,11 @@ video {
   background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
 }
 
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
+}
+
 .bg-gray-700 {
   --tw-bg-opacity: 1;
   background-color: rgba(55, 65, 81, var(--tw-bg-opacity));
@@ -1280,6 +1277,11 @@ video {
 .hover\:bg-purple-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgba(109, 40, 217, var(--tw-bg-opacity));
+}
+
+.hover\:bg-coaligned-white:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 249, 233, var(--tw-bg-opacity));
 }
 
 .focus\:bg-gray-900:focus {
@@ -1347,8 +1349,8 @@ video {
   background-image: url('../halo/img/events/meditation-covers/meditation-stone-small.jpg');
 }
 
-.bg-halo-events-nature-bridge {
-  background-image: url('../halo/img/events/meditation-covers/bridge-nature-small.jpg');
+.bg-halo-events-balloons {
+  background-image: url('../halo/img/events/meditation-covers/bagan.jpg');
 }
 
 .from-gray-700 {
@@ -1704,6 +1706,11 @@ video {
   font-family: Raleway, sans-serif;
 }
 
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -1810,6 +1817,16 @@ video {
   color: rgba(75, 85, 99, var(--tw-text-opacity));
 }
 
+.text-gray-700 {
+  --tw-text-opacity: 1;
+  color: rgba(55, 65, 81, var(--tw-text-opacity));
+}
+
+.text-gray-900 {
+  --tw-text-opacity: 1;
+  color: rgba(17, 24, 39, var(--tw-text-opacity));
+}
+
 .text-red-400 {
   --tw-text-opacity: 1;
   color: rgba(248, 113, 113, var(--tw-text-opacity));
@@ -1843,6 +1860,11 @@ video {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.hover\:text-gray-900:hover {
+  --tw-text-opacity: 1;
+  color: rgba(17, 24, 39, var(--tw-text-opacity));
 }
 
 .hover\:text-yellow-100:hover {
@@ -2552,10 +2574,6 @@ html {
     width: 80%;
   }
 
-  .md\:w-2\/6 {
-    width: 33.333333%;
-  }
-
   .md\:rotate-0 {
     --tw-rotate: 0deg;
   }
@@ -2630,14 +2648,6 @@ html {
     top: 0px;
   }
 
-  .lg\:-top-28 {
-    top: -7rem;
-  }
-
-  .lg\:right-0 {
-    right: 0px;
-  }
-
   .lg\:right-7 {
     right: 1.75rem;
   }
@@ -2646,16 +2656,8 @@ html {
     bottom: 0.5rem;
   }
 
-  .lg\:left-0 {
-    left: 0px;
-  }
-
   .lg\:order-last {
     order: 9999;
-  }
-
-  .lg\:col-span-2 {
-    grid-column: span 2 / span 2;
   }
 
   .lg\:mt-0 {
@@ -2742,12 +2744,12 @@ html {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .lg\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
   .lg\:bg-opacity-60 {
     --tw-bg-opacity: 0.6;
+  }
+
+  .lg\:bg-opacity-90 {
+    --tw-bg-opacity: 0.9;
   }
 
   .lg\:bg-mountain-desktop {
@@ -2792,11 +2794,6 @@ html {
   .lg\:px-36 {
     padding-left: 9rem;
     padding-right: 9rem;
-  }
-
-  .lg\:px-40 {
-    padding-left: 10rem;
-    padding-right: 10rem;
   }
 
   .lg\:px-56 {
@@ -2876,8 +2873,9 @@ html {
     padding-left: 5rem;
   }
 
-  .lg\:pl-24 {
-    padding-left: 6rem;
+  .lg\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 
   .lg\:text-lg {
