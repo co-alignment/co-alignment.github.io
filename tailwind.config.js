@@ -105,6 +105,10 @@ module.exports = {
         'halo-events-balloons' : "url('../halo/img/events/meditation-covers/bagan.jpg')",
         'halo-events-butterflies' : "url('../halo/img/events/meditation-covers/blue-butterflies-mushrooms.jpg')",
         'halo-events-nature-bridge' : "url('../halo/img/events/meditation-covers/bridge-nature-small.jpg')",
+        'halo-events-eclipse' : "url('../halo/img/events/meditation-covers/eclipse.jpg')",
+        'halo-events-lovers-bay' : "url('../halo/img/events/meditation-covers/lovers-bay.jpg')",
+        'halo-events-night-sky' : "url('../halo/img/events/meditation-covers/night-sky.jpg')",
+
       }),
       height: {
         'aligned-section': '36rem',
