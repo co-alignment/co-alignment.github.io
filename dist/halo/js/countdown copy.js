@@ -1,10 +1,10 @@
 // Setup events
-let newmoon = {name: 'New Moon Ceremony', launchDate: new Date("Oct 19, 2021 18:00:00 UTC").getTime(), dateString: 'Tuesday 19 October at 18:00 UTC',  zoomLink: '#', background: 'bg-halo-events-new-moon'};
-let meditation1 = {name: 'HALO Meditation', launchDate: new Date("Oct 12, 2021 18:00:00 UTC").getTime(), dateString: 'Tuesday 12 October at 18:00 UTC',  zoomLink: 'test/123', background: 'bg-halo-events-new-moon'};
-let masterheart1 = {name: 'HALO Masterheart', launchDate: new Date("Oct 19, 2021 18:00:00 UTC").getTime(), dateString: 'Tuesday 19 October at 18:00 UTC',  zoomLink: '#', background: 'bg-halo-events-balloons'};
-let fullmoon = {name: 'Full Moon Ceremony', launchDate: new Date("Oct 21, 2021 17:00:00 UTC").getTime(), dateString: 'Thursday 21 October at 17:00 UTC',  zoomLink: '#', background: 'bg-halo-events-eclipse'};
-let meditation2 = {name: 'HALO Meditation', launchDate: new Date("Oct 25, 2021 18:00:00 UTC").getTime(), dateString: 'Tuesday 25 October at 18:00 UTC',  zoomLink: '#', background: 'bg-halo-events-meditate-stone'};
-let masterheart2 = {name: 'HALO Masterheart', launchDate: new Date("Nov 2, 2021 18:00:00 UTC").getTime(), dateString: 'Tuesday 2 November at 18:00 UTC',  zoomLink: '#', background: 'bg-halo-events-butterflies'};
+let newmoon = {id: 1, name: 'New Moon Ceremony', launchDate: new Date("Oct 19, 2021 18:00:00 UTC").getTime(), dateString: 'Tuesday 19 October at 18:00 UTC',  zoomLink: '#', background: 'bg-halo-events-new-moon'};
+let meditation1 = {id: 2, name: 'HALO Meditation', launchDate: new Date("Oct 12, 2021 18:00:00 UTC").getTime(), dateString: 'Tuesday 12 October at 18:00 UTC',  zoomLink: 'test/123', background: 'bg-halo-events-new-moon'};
+let masterheart1 = {id: 3, name: 'HALO Masterheart', launchDate: new Date("Oct 19, 2021 18:00:00 UTC").getTime(), dateString: 'Tuesday 19 October at 18:00 UTC',  zoomLink: '#', background: 'bg-halo-events-balloons'};
+let fullmoon = {id: 4, name: 'Full Moon Ceremony', launchDate: new Date("Oct 21, 2021 17:00:00 UTC").getTime(), dateString: 'Thursday 21 October at 17:00 UTC',  zoomLink: '#', background: 'bg-halo-events-eclipse'};
+let meditation2 = {id: 5, name: 'HALO Meditation', launchDate: new Date("Oct 25, 2021 18:00:00 UTC").getTime(), dateString: 'Tuesday 25 October at 18:00 UTC',  zoomLink: '#', background: 'bg-halo-events-meditate-stone'};
+let masterheart2 = {id: 6, name: 'HALO Masterheart', launchDate: new Date("Nov 2, 2021 18:00:00 UTC").getTime(), dateString: 'Tuesday 2 November at 18:00 UTC',  zoomLink: '#', background: 'bg-halo-events-butterflies'};
 
 
 //establish current event
