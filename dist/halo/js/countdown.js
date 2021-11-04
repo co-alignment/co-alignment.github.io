@@ -1,5 +1,5 @@
 // Setup End Date for Countdown
-let launchDate = new Date("Oct 19, 2021 18:00:00 UTC").getTime();
+let launchDate = new Date("Nov 9, 2021 19:00:00 UTC").getTime();
 
 // Setup Timer to tick every second
 let timer = setInterval(tick, 1000);
@@ -37,8 +37,10 @@ function tick () {
         let minLeft = t/(1000*60);
         if(minLeft < 15) {
             document.querySelector('.event-button').classList.remove('hidden');
-        }
+        } 
 
 
+    } else {
+        document.querySelector('.event-button').classList.remove('hidden');
     }
 }
