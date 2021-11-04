@@ -27,6 +27,14 @@ html {
     @apply py-2 px-16 text-white bg-gradient-to-tr from-coaligned-neon-blue1 to-coaligned-neon-blue2 hover:shadow-2xl rounded-xl font-semibold text-xl uppercase hover:underline transition duration-300 transform hover:-translate-y-1 hover:scale-105 inline-block shadow-md;
 }
 
+.aligned-btn-meditation-page{
+    @apply py-2 px-16 text-white bg-gradient-to-tr from-coaligned-teal to-coaligned-neon-blue2 hover:shadow-2xl rounded-xl font-semibold text-xl uppercase hover:underline transition duration-300 transform hover:-translate-y-1 hover:scale-105 inline-block shadow-md;
+}
+
+.aligned-btn-yellow{
+    @apply py-2 px-16 text-black bg-gradient-to-tr font-semibold text-2xl rounded-xl from-yellow-200 to-yellow-400 uppercase hover:underline transition duration-300 transform hover:-translate-y-1 hover:scale-105 inline-block;
+}
+
 .cookie-banner {
     position: fixed;
     bottom: -100%;
