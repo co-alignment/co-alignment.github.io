@@ -1345,12 +1345,44 @@ video {
   background-image: url('../join-halo/houserules/img/houserules-background.jpg');
 }
 
+.bg-halo-events-new-moon {
+  background-image: url('../halo/img/events/new-moon.jpg');
+}
+
 .bg-halo-events-meditate-stone {
   background-image: url('../halo/img/events/meditation-covers/meditation-stone-small.jpg');
 }
 
+.bg-halo-events-forest {
+  background-image: url('../halo/img/events/meditation-covers/backlighting.jpg');
+}
+
+.bg-halo-events-angelman {
+  background-image: url('../halo/img/events/meditation-covers/angelman.jpg');
+}
+
 .bg-halo-events-balloons {
   background-image: url('../halo/img/events/meditation-covers/bagan.jpg');
+}
+
+.bg-halo-events-butterflies {
+  background-image: url('../halo/img/events/meditation-covers/blue-butterflies-mushrooms.jpg');
+}
+
+.bg-halo-events-nature-bridge {
+  background-image: url('../halo/img/events/meditation-covers/bridge-nature-small.jpg');
+}
+
+.bg-halo-events-eclipse {
+  background-image: url('../halo/img/events/meditation-covers/eclipse.jpg');
+}
+
+.bg-halo-events-lovers-bay {
+  background-image: url('../halo/img/events/meditation-covers/lovers-bay.jpg');
+}
+
+.bg-halo-events-night-sky {
+  background-image: url('../halo/img/events/meditation-covers/night-sky.jpg');
 }
 
 .from-gray-700 {
@@ -1361,11 +1393,6 @@ video {
 .from-gray-800 {
   --tw-gradient-from: #1f2937;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
-}
-
-.from-yellow-200 {
-  --tw-gradient-from: #fde68a;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(253, 230, 138, 0));
 }
 
 .from-coaligned-darkblue {
@@ -1388,10 +1415,6 @@ video {
 
 .to-gray-900 {
   --tw-gradient-to: #111827;
-}
-
-.to-yellow-400 {
-  --tw-gradient-to: #fbbf24;
 }
 
 .to-coaligned-darkteal1 {
@@ -2404,6 +2427,114 @@ html {
 }
 
 .aligned-btn-blue {
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition-duration: 300ms;
+}
+
+.aligned-btn-meditationpage{
+  display: inline-block;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.aligned-btn-meditationpage:hover {
+  --tw-translate-y: -0.25rem;
+  --tw-scale-x: 1.05;
+  --tw-scale-y: 1.05;
+}
+
+.aligned-btn-meditationpage {
+  border-radius: 0.75rem;
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  --tw-gradient-from: #137680;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(19, 118, 128, 0));
+  --tw-gradient-to: #07D3E0;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.aligned-btn-meditationpage:hover {
+  text-decoration: underline;
+}
+
+.aligned-btn-meditationpage {
+  --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.aligned-btn-meditationpage:hover {
+  --tw-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.aligned-btn-meditationpage {
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition-duration: 300ms;
+}
+
+.aligned-btn-yellow{
+  display: inline-block;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.aligned-btn-yellow:hover {
+  --tw-translate-y: -0.25rem;
+  --tw-scale-x: 1.05;
+  --tw-scale-y: 1.05;
+}
+
+.aligned-btn-yellow {
+  border-radius: 0.75rem;
+  background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+  --tw-gradient-from: #fde68a;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(253, 230, 138, 0));
+  --tw-gradient-to: #fbbf24;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  --tw-text-opacity: 1;
+  color: rgba(0, 0, 0, var(--tw-text-opacity));
+}
+
+.aligned-btn-yellow:hover {
+  text-decoration: underline;
+}
+
+.aligned-btn-yellow {
   transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
   transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
