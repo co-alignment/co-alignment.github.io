@@ -1395,11 +1395,6 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
 }
 
-.from-yellow-200 {
-  --tw-gradient-from: #fde68a;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(253, 230, 138, 0));
-}
-
 .from-coaligned-darkblue {
   --tw-gradient-from: #0B464D;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(11, 70, 77, 0));
@@ -1420,10 +1415,6 @@ video {
 
 .to-gray-900 {
   --tw-gradient-to: #111827;
-}
-
-.to-yellow-400 {
-  --tw-gradient-to: #fbbf24;
 }
 
 .to-coaligned-darkteal1 {
@@ -2444,7 +2435,7 @@ html {
   transition-duration: 300ms;
 }
 
-.aligned-btn-meditation-page{
+.aligned-btn-meditationpage{
   display: inline-block;
   --tw-translate-x: 0;
   --tw-translate-y: 0;
@@ -2456,18 +2447,18 @@ html {
   transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.aligned-btn-meditation-page:hover {
+.aligned-btn-meditationpage:hover {
   --tw-translate-y: -0.25rem;
   --tw-scale-x: 1.05;
   --tw-scale-y: 1.05;
 }
 
-.aligned-btn-meditation-page {
+.aligned-btn-meditationpage {
   border-radius: 0.75rem;
-  background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
   --tw-gradient-from: #137680;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(19, 118, 128, 0));
-  --tw-gradient-to: #34b7fc;
+  --tw-gradient-to: #07D3E0;
   padding-left: 4rem;
   padding-right: 4rem;
   padding-top: 0.5rem;
@@ -2480,21 +2471,21 @@ html {
   color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
 
-.aligned-btn-meditation-page:hover {
+.aligned-btn-meditationpage:hover {
   text-decoration: underline;
 }
 
-.aligned-btn-meditation-page {
+.aligned-btn-meditationpage {
   --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.aligned-btn-meditation-page:hover {
+.aligned-btn-meditationpage:hover {
   --tw-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.aligned-btn-meditation-page {
+.aligned-btn-meditationpage {
   transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
   transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;

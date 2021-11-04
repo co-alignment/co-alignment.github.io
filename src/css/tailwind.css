@@ -27,8 +27,8 @@ html {
     @apply py-2 px-16 text-white bg-gradient-to-tr from-coaligned-neon-blue1 to-coaligned-neon-blue2 hover:shadow-2xl rounded-xl font-semibold text-xl uppercase hover:underline transition duration-300 transform hover:-translate-y-1 hover:scale-105 inline-block shadow-md;
 }
 
-.aligned-btn-meditation-page{
-    @apply py-2 px-16 text-white bg-gradient-to-tr from-coaligned-teal to-coaligned-neon-blue2 hover:shadow-2xl rounded-xl font-semibold text-xl uppercase hover:underline transition duration-300 transform hover:-translate-y-1 hover:scale-105 inline-block shadow-md;
+.aligned-btn-meditationpage{
+    @apply py-2 px-16 text-white bg-gradient-to-r from-coaligned-teal to-coaligned-medblue hover:shadow-2xl rounded-xl font-semibold text-xl uppercase hover:underline transition duration-300 transform hover:-translate-y-1 hover:scale-105 inline-block shadow-md;
 }
 
 .aligned-btn-yellow{

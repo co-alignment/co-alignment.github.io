@@ -33,6 +33,7 @@ module.exports = {
         },
         coaligned: {
           darkblue: '#0B464D',
+          medblue: '#07D3E0',
           teal: '#137680',
           pink: '#e04890',
           white: '#fff9e9',
