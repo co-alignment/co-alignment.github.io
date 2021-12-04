@@ -1,6 +1,6 @@
 module.exports = {
   purge: {
-    enabled: true,
+    enabled: false,
     content:  [
       './dist/**/*.html',
       './dist/src/*.css',
@@ -109,6 +109,7 @@ module.exports = {
         'halo-events-eclipse' : "url('../halo/img/events/meditation-covers/eclipse.jpg')",
         'halo-events-lovers-bay' : "url('../halo/img/events/meditation-covers/lovers-bay.jpg')",
         'halo-events-night-sky' : "url('../halo/img/events/meditation-covers/night-sky.jpg')",
+        'chakra-dance' : "url('../dance/img/bg-chakra.jpg')",
 
       }),
       height: {
