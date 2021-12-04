@@ -34,6 +34,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="./img/favicon.png"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="./css/tailwind.css">
     <title>Co-Alignment | Creating Heaven on Earth, Together</title>
 
@@ -42,6 +43,48 @@
 
  
   <!--Backgrounds-->
+
+      <!--dance banner-->
+      <div class="banner bg-chakra-dance bg-cover shadow-neon-teal-2xl-brighter">
+        <div class="bg-gray-900 bg-opacity-40">
+          <div class="banner__content px-10 lg:py-4 py-1 mx-auto text-white font-Raleway flex text-center items-center">
+            <div class="banner__text flex-1 lg:text-xl md:text-lg text-md font-semibold lg:flex mx-auto max-w-7xl items-center text-center">
+              <div class="block mx-auto text-center  py-2"> 
+                <div class="flex self-center justify-center">
+                  <img src="./dance/img/chakras-white_0007_muladhara.png" alt="root" class="lg:w-12 lg:h-12 w-8 h-8 mx-1">
+                  <img src="./dance/img/chakras-white_0006_swadisthana.png" alt="sacral" class="lg:w-12 lg:h-12 w-8 h-8 mx-1">
+                  <img src="./dance/img/chakras-white_0005_manipura.png" alt="solar" class="lg:w-12 lg:h-12 w-8 h-8 mx-1"></div>
+                
+              </div>
+             
+              <p class="mx-4"> 
+                <strong>Hey You!</strong> In January we are going to start an amazing <strong>Dancing</strong> course! <br> for more info <a href="https://coalignment.com/dance/" class="underline hover:text-blue-300 hover:shadow-lg transition transform duration-300">click here.</a> 
+              </p>
+              <div class="flex mx-auto self-center justify-center py-2">
+                <img src="./dance/img/chakras-white_0004_anahata.png" alt="heart" class="lg:w-12 lg:h-12 w-8 h-8 mx-1">
+                <img src="./dance/img/chakras-white_0003_vishuddha.png" alt="throat" class="lg:w-12 lg:h-12 w-8 h-8 mx-1">
+                <img src="./dance/img/chakras-white_0002_ajna.png" alt="third eye" class="lg:w-14 lg:h-10 w-8 h-6 mx-1">
+                <img src="./dance/img/chakras-white_0001_sahasrara.png" alt="crown" class="lg:w-12 lg:h-12 w-8 h-8 mx-1">
+              </div>
+              
+             
+            </div>
+            <button class="banner__close bg-none border-none" type="button">
+              <span class="material-icons">
+                close
+              </span>
+            </button>
+          </div>
+        </div>
+        <script>
+          document.querySelector(".banner__close").addEventListener("click", function() {
+            this.closest(".banner").classList.add("hidden");
+          })
+        </script>
+    
+      </div>
+  
+
 
   <picture>
     <source media="(min-width: 1024px)" srcset="./img/leave-background.jpg">
